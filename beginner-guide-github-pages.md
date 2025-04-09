@@ -3,6 +3,9 @@
 ![ChatGPT Image Apr 9, 2025, 12_08_11 AM](https://github.com/user-attachments/assets/fde0a877-2a63-4996-9e7b-0f4b965f8304)
 
 
+
+
+
 ## Table of Contents
 1. [Introduction](#introduction)
    - [What is GitHub Pages?](#what-is-github-pages)
@@ -55,17 +58,22 @@ Before you can start hosting your website, you’ll need a GitHub account. Follo
 
 1. **Visit the GitHub Signup Page**  
    Go to [GitHub's signup page](https://github.com/join).
-
+![Screenshot 2025-04-09 021159 (1)](https://github.com/user-attachments/assets/2906a220-55ce-4029-a480-b9f34963dae7)
 2. **Fill in Your Details**  
    - **Username**: Choose a unique username (this is how others will recognize you on GitHub). If you’re using GitHub to host your personal website, pick something simple and memorable.
    - **Email**: Enter a valid email address. This will be used to send notifications about your account and repositories.
    - **Password**: Make sure your password is secure, ideally a mix of letters, numbers, and special characters.
+![Screenshot 2025-04-09 021926](https://github.com/user-attachments/assets/12cb4de4-f8d9-4a51-bc44-f5d1b05b1bd3)
 
 3. **Verify Your Account**  
    GitHub may ask you to verify you're not a robot by completing a CAPTCHA. Follow the instructions on the screen.
+![Screenshot 2025-04-09 022706](https://github.com/user-attachments/assets/0c294b41-55ff-45f4-8365-bd02d90abc91)
 
 4. **Confirm Your Email Address**  
    After signing up, check your email inbox for a confirmation message from GitHub. Click on the link in the email to verify your account.
+![Screenshot 2025-04-09 023749](https://github.com/user-attachments/assets/d5c2c44e-084e-4a23-bcb5-350e459ed27e)
+![Screenshot 2025-04-09 022801](https://github.com/user-attachments/assets/f67956d9-3731-42be-bb38-e018a5a16b54)
+
 
 
 ### Setting Up Your First Repository

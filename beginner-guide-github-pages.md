@@ -31,11 +31,20 @@ GitHub Pages is a free tool that lets you create and host websites directly from
 
 If you're new to creating websites, GitHub Pages is a great place to start. Here’s why:
 
-- **It’s easy**: If you’ve used GitHub, setting up your website will be a smooth process. It fits right into what you’re already doing.
+- **It’s easy**: GitHub Pages is simple to set up, even if you’ve never used GitHub before.
 - **It’s free**: You don’t need to worry about hosting fees. GitHub Pages is completely free to use.
 - **It’s quick**: The setup is fast, and you can have your site live in no time.
 - **It’s well-supported**: There are tons of tutorials and a helpful community if you ever get stuck.
 
 By the end of this guide, you’ll have your own website up and ready to share with others.
+
+![card_(2)_upscaled](https://github.com/user-attachments/assets/7b36fb50-7d1c-46a2-a017-3e90317e7a8e)
+
+
+
+
+
+
+
 
 

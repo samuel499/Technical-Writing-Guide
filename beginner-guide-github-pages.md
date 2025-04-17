@@ -106,17 +106,26 @@ Before we create a new repository, let's make sure you have the files ready for 
 
 #### Step 1: Create an HTML File
 
-1. Open your text editor (Notepad is the easiest and fastest for beginners. If you'd like to use a more advanced editor, like Visual Studio Code, you can [download and install it here](https://code.visualstudio.com/)).
+1. Create a new folder on your desktop (or anywhere you like) and name it something like my-website.
+You’ll save all your website files in this folder — HTML, CSS, images, everything.
 
+
+![Github screenshot07](https://github.com/user-attachments/assets/fc15d90e-f739-4ac6-b84f-b3e869a8f312)
+<em style = " color: #4F4F4F; "> The my-website folder created in documents </em>
+
+
+2. Open your text editor (Notepad is the easiest and fastest for beginners. If you'd like to use a more advanced editor, like Visual Studio Code, you can [download and install it here](https://code.visualstudio.com/)).
+
+> *Want a beginner-friendly walkthrough? Check out this [Beginner’s Guide to Using Visual Studio Code](https://docs.google.com/document/d/1lyzrPdn4oSSd_5p7aFk7Pgan6-523vPAQq16W2HE0Q4/edit?usp=sharing).*
 
 ![Github screenshot02](https://github.com/user-attachments/assets/58541f6e-3745-434a-9ff6-135ae6f735d2)
-<em style = " color: #4F4F4F; "> Notepad opened </em>
+<em style = " color: #4F4F4F; "> Notepad ready for editing </em>
 
-2. Create a new file and add the following basic HTML structure:
+3. Create a new file and add the following basic HTML structure:
 
 
 ![Github screenshot03](https://github.com/user-attachments/assets/f499afd3-3046-4f43-9a13-02a42dd75428)
-<em style = " color: #4F4F4F; ">A basic html structure on notepad </em>
+<em style = " color: #4F4F4F; "> Basic HTML structure written in Notepad </em>
 
 ```html
 <!DOCTYPE html>
@@ -133,10 +142,10 @@ Before we create a new repository, let's make sure you have the files ready for 
 </html>  
 ```
 
-3. Save the file as index.html. This will be your homepage when you launch the website.
+4. Save the file as index.html. This will be your homepage when you launch the website.
 
 ![Github screenshot04](https://github.com/user-attachments/assets/57d49f8e-bb7e-41c5-8285-f6d37f1bc010)
-<em style = " color: #4F4F4F; ">Saving the html file on notepad </em>
+<em style = " color: #4F4F4F; "> Saving the HTML file as "index.html" </em>
 
 
 #### Step 2: Add CSS (Optional)
@@ -163,6 +172,11 @@ h1 {
 3. Save this file as **styles.css**.
 
 
+![Github screenshot05](https://github.com/user-attachments/assets/280b5f1a-d0c6-40da-8b16-4e9d65d38a52)
+<em style = " color: #4F4F4F; "> CSS file saved as "styles.css" in Notepad </em>
+
+
+
 #### Step 3: Add Images (Optional)
 
 If you want to include any images on your website, simply add the image files (like **.jpg**, **.png**, or **.gif**) to the folder where your **index.html** and **styles.css** files are stored. You can reference them in your HTML file like this:
@@ -170,5 +184,9 @@ If you want to include any images on your website, simply add the image files (l
 ```html
 <img src="your-image.jpg" alt="Description of the image">
 ```
+
+![Github screenshot06](https://github.com/user-attachments/assets/53fb8a1a-c9f0-4c39-80de-789bf4669681)
+<em style = " color: #4F4F4F; "> An image added to the same folder as the HTML and CSS files </em>
+
 Now you have all the files you need to set up your site! Once you've created these files, we can move on to creating your GitHub repository and uploading them.
 

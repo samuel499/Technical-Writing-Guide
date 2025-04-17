@@ -130,11 +130,45 @@ Before we create a new repository, let's make sure you have the files ready for 
     <h1>Welcome to Your GitHub Pages Site!</h1>
     <p>This is your first website using GitHub Pages. You can start editing this content and customize it as you like.</p>
 </body>
-</html>
+</html>  
+```
 
 3. Save the file as index.html. This will be your homepage when you launch the website.
 
 ![Github screenshot04](https://github.com/user-attachments/assets/57d49f8e-bb7e-41c5-8285-f6d37f1bc010)
 <em style = " color: #4F4F4F; ">Saving the html file on notepad </em>
 
+
+#### Step 2: Add CSS (Optional)
+
+If you’d like to add a bit of style to your page, you can also create a CSS file:
+
+1. In your text editor, create another new file.
+
+2. Add the following CSS to style your website (feel free to change the colors or fonts as you wish):
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #5a5a5a;
+}
+```
+3. Save this file as **styles.css**.
+
+
+#### Step 3: Add Images (Optional)
+
+If you want to include any images on your website, simply add the image files (like **.jpg**, **.png**, or **.gif**) to the folder where your **index.html** and **styles.css** files are stored. You can reference them in your HTML file like this:
+
+```html
+<img src="your-image.jpg" alt="Description of the image">
+```
+Now you have all the files you need to set up your site! Once you've created these files, we can move on to creating your GitHub repository and uploading them.
 

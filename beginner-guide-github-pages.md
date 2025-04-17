@@ -8,7 +8,7 @@
 1. [Introduction](#introduction)  
 2. [What is GitHub Pages?](#what-is-github-pages)  
 3. [What You'll Need](#what-youll-need)  
-4. [Step-by-Step Guide](#step-by-step-guide)  
+4. [Getting Started: Your Step-by-Step Guide](#getting-started-step-by-step-guide)  
     - [4.1 Create a GitHub Account](#41-create-a-github-account)  
     - [4.2 Create a New Repository](#42-create-a-new-repository)  
     - [4.3 Add Your Website Files](#43-add-your-website-files)  
@@ -45,3 +45,54 @@ We’re going to use GitHub Pages in this guide to take the files you create and
 
 ![Screenshot 2025-04-17 020641](https://github.com/user-attachments/assets/355fcbaa-fb80-465e-99a4-4df435f31fa7)
 <em style = " color: #4F4F4F; "> A screenshot of a GitHub repository's README file, demonstrating how easy it is to publish content with GitHub Pages </em>
+
+
+## WHAT YOU'LL NEED
+
+Here’s a quick look at what you need to follow this guide:
+
+- **A GitHub account**  
+  Don’t worry if you don’t have one yet! We’ll guide you through creating a GitHub account step-by-step in the following section. You’ll be uploading your website here once you’re all set up.
+
+- **A browser**  
+  Most of what we’ll do happens online. Chrome, Firefox, or whatever you normally use is fine.
+
+- **Your website files**  
+  If you’re new to this, no problem! You’ll learn how to create a basic HTML file in the next steps. You can also add things like images or a bit of styling with CSS if you want. We’ll walk you through each part so you can follow along.
+
+- **Somewhere to write your files**  
+  A plain text editor will do. You can use Notepad, or if you prefer, something like Visual Studio Code. Nothing fancy needed—just something that lets you type and save files.
+
+
+## GETTING STARTED: YOUR STEP-BY-STEP GUIDE
+
+In this section, we’ll walk you through each step needed to set up your GitHub Pages website. Don’t worry if you’ve never done this before! By the end of this guide, you’ll have your own website up and running. Let’s dive in!
+
+
+### CREATE YOUR GITHUB ACCOUNT
+
+First things first—you’ll need a GitHub account. That’s where your website will live.
+
+Here’s the simple version:
+
+1. Go to [github.com](https://github.com) and click **Sign up** to GitHub.
+
+![Screenshot 2025-04-17 003725](https://github.com/user-attachments/assets/ec23c882-9827-48d1-b6aa-467397b60d89)
+<em style = " color: #4F4F4F; "> Search results showing the GitHub sign-up page on Chrome. </em>
+
+2. Add your email, pick a username, and choose a password you’ll remember.
+
+![Screenshot 2025-04-17 012029](https://github.com/user-attachments/assets/89169bb1-d311-4970-8fd3-3836f0d6c4d5)
+<em style = " color: #4F4F4F; ">  GitHub sign-up page prompting for email, username, and password. </em>
+
+3. GitHub will walk you through a few steps to finish setting things up. Nothing complicated—just follow along.
+
+![Screenshot 2025-04-09 022641](https://github.com/user-attachments/assets/70adfff7-fbce-4f70-8631-3f8a8f53f2f7)
+<em style = " color: #4F4F4F; "> GitHub verification page during the sign-up process. </em>
+
+4. Once you're in, you’ll see your dashboard. That’s your workspace. You’re all set.
+
+![Github screenshot](https://github.com/user-attachments/assets/04a891b2-3943-4775-85e4-e2462975ba5a)
+<em style = " color: #4F4F4F; "> GitHub user dashboard, your workspace once you’re signed in. </em>
+
+> **Note:** Keep your login saved somewhere safe. You'll need it later when uploading or updating your site.

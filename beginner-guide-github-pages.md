@@ -19,6 +19,7 @@
 7. [Conclusion](#conclusion)
 
 
+
 ## Introduction
 
 Setting up a personal website might sound complicated, especially if you’re not used to working with tech tools. But it doesn’t have to be.
@@ -26,3 +27,8 @@ Setting up a personal website might sound complicated, especially if you’re no
 This guide is written for beginners—people who want a simple website without having to learn how to code. Maybe you’re a student sharing a portfolio, a writer starting a blog, or a small business owner building an online presence. Whatever your goal is, this step-by-step guide will walk you through using GitHub Pages to set up a basic website that’s completely free to host.
 
 You won’t need any technical background. We’ll go slow, explain each step, and show you exactly what to do—with screenshots included. By the end, you’ll have your own live site to share with the world.
+
+
+![ChatGPT Image Apr 17, 2025, 01_51_36 AM](https://github.com/user-attachments/assets/49392fac-8a4b-405d-b31e-3b4dc9ddfe49)
+  <em style="color: #4f4f4f;">An illustrated view of a typical GitHub dashboard—your starting point to building a free website.</em>
+

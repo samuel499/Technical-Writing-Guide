@@ -30,5 +30,15 @@ You won’t need any technical background. We’ll go slow, explain each step, a
 
 
 ![ChatGPT Image Apr 17, 2025, 01_51_36 AM](https://github.com/user-attachments/assets/49392fac-8a4b-405d-b31e-3b4dc9ddfe49)
-  <em style="color: #4f4f4f;">An illustrated view of a typical GitHub dashboard—your starting point to building a free website.</em>
+<em style="color: #4f4f4f;">An illustrated view of a typical GitHub dashboard—your starting point to building a free website.</em>
+
+
+
+## WHAT IS GITHUB PAGES?
+
+GitHub Pages is a tool that lets you create a website directly from files you’ve stored in GitHub. You don’t need to pay for hosting, and there’s no need for a complicated setup.
+
+It’s basically a simple way to put your projects online. If you have a GitHub account and know how to upload files, you can use GitHub Pages to make those files live on the web. This is great for things like portfolios, personal sites, or any other simple project you want to share with others.
+
+We’re going to use GitHub Pages in this guide to take the files you create and turn them into an actual website that anyone can visit.
 

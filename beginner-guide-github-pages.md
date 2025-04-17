@@ -42,3 +42,6 @@ It’s basically a simple way to put your projects online. If you have a GitHub 
 
 We’re going to use GitHub Pages in this guide to take the files you create and turn them into an actual website that anyone can visit.
 
+
+![Screenshot 2025-04-17 020641](https://github.com/user-attachments/assets/355fcbaa-fb80-465e-99a4-4df435f31fa7)
+<em style = " color: #4F4F4F; "> A screenshot of a GitHub repository's README file, demonstrating how easy it is to publish content with GitHub Pages </em>

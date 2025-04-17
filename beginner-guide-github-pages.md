@@ -75,9 +75,10 @@ First things first—you’ll need a GitHub account. That’s where your website
 
 Here’s the simple version:
 
-1. Go to [github.com](https://github.com) and click **Sign up** to GitHub.
+1. Go to [github.com](https://github.com) and click **Sign up to GitHub**.
 
-![Screenshot 2025-04-17 003725](https://github.com/user-attachments/assets/ec23c882-9827-48d1-b6aa-467397b60d89)
+
+![Github screenshot01](https://github.com/user-attachments/assets/6eecf376-374d-4390-a102-7e4a0665180a)
 <em style = " color: #4F4F4F; "> Search results showing the GitHub sign-up page on Chrome. </em>
 
 2. Add your email, pick a username, and choose a password you’ll remember.

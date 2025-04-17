@@ -9,11 +9,12 @@
 2. [What is GitHub Pages?](#what-is-github-pages)  
 3. [What You'll Need](#what-youll-need)  
 4. [Getting Started: Your Step-by-Step Guide](#getting-started-step-by-step-guide)  
-    - [4.1 Create a GitHub Account](#41-create-a-github-account)  
-    - [4.2 Create a New Repository](#42-create-a-new-repository)  
-    - [4.3 Add Your Website Files](#43-add-your-website-files)  
-    - [4.4 Enable GitHub Pages](#44-enable-github-pages)  
-    - [4.5 View Your Live Website](#45-view-your-live-website)  
+    - [4.1 Create a GitHub Account](#41-create-a-github-account)
+    - [4.2 Create Your Basic HTML Files](#42-create-your-basic-html-files)
+    - [4.3 Create a New Repository](#43-create-a-new-repository)  
+    - [4.4 Add Your Website Files](#44-add-your-website-files)  
+    - [4.5 Enable GitHub Pages](#45-enable-github-pages)  
+    - [4.6 View Your Live Website](#46-view-your-live-website)  
 5. [Customizing Your Website](#customizing-your-website)  
 6. [Troubleshooting & FAQ](#troubleshooting--faq)  
 7. [Conclusion](#conclusion)
@@ -97,3 +98,43 @@ Here’s the simple version:
 <em style = " color: #4F4F4F; "> GitHub user dashboard, your workspace once you’re signed in. </em>
 
 > **Note:** Keep your login saved somewhere safe. You'll need it later when uploading or updating your site.
+
+
+### CREATE YOUR BASIC HTML FILES
+
+Before we create a new repository, let's make sure you have the files ready for your website. At a minimum, you'll need a basic HTML file. If you're feeling adventurous, you can also add a bit of styling with CSS or even some images.
+
+#### Step 1: Create an HTML File
+
+1. Open your text editor (Notepad is the easiest and fastest for beginners. If you'd like to use a more advanced editor, like Visual Studio Code, you can [download and install it here](https://code.visualstudio.com/)).
+
+
+![Github screenshot02](https://github.com/user-attachments/assets/58541f6e-3745-434a-9ff6-135ae6f735d2)
+<em style = " color: #4F4F4F; "> Notepad opened </em>
+
+2. Create a new file and add the following basic HTML structure:
+
+
+![Github screenshot03](https://github.com/user-attachments/assets/f499afd3-3046-4f43-9a13-02a42dd75428)
+<em style = " color: #4F4F4F; ">A basic html structure on notepad </em>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+</head>
+<body>
+    <h1>Welcome to Your GitHub Pages Site!</h1>
+    <p>This is your first website using GitHub Pages. You can start editing this content and customize it as you like.</p>
+</body>
+</html>
+
+3. Save the file as index.html. This will be your homepage when you launch the website.
+
+![Github screenshot04](https://github.com/user-attachments/assets/57d49f8e-bb7e-41c5-8285-f6d37f1bc010)
+<em style = " color: #4F4F4F; ">Saving the html file on notepad </em>
+
+

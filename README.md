@@ -25,6 +25,4 @@ I’ll walk you through how to create and publish a basic personal website using
 
 Feel free to fork this repo and create pull requests if you have improvements, suggestions, or contributions. If you'd like to add your own examples or screenshots, please follow the steps outlined in the guide.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

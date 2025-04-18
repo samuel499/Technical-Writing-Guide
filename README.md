@@ -10,10 +10,10 @@ I’ll walk you through how to create and publish a basic personal website using
 
 - [x] Repository setup
 - [x] Project description
-- [ ] Target audience definition
-- [ ] Step-by-step setup guide
-- [ ] Screenshots and annotations
-- [ ] Troubleshooting section (optional)
+- [x] Target audience definition
+- [x] Step-by-step setup guide
+- [x] Screenshots and annotations
+- [x] Troubleshooting section (optional)
 
 ## Structure
 

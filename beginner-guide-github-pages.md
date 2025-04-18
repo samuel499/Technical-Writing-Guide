@@ -239,3 +239,44 @@ Here’s how to do it:
 
 That’s it! You’ve just created the space where your website will live.
 
+
+### Adding Your Website Files
+
+Now that your repository is set up, it’s time to upload your website files.  
+At the very least, you’ll need one file called `index.html` — this is the **main page** of your site.
+
+#### Follow these steps:
+
+1. **Open the repository** you just created.
+
+
+![Github screenshot14](https://github.com/user-attachments/assets/713958d4-4310-43c5-b1ec-0ccac95afcf6)
+<em style = " color: #4F4F4F; "> This is what your new repository will look like after it’s created. </em>
+
+2. Click the **“upload an existing file”** link
+
+![Github screenshot15](https://github.com/user-attachments/assets/5e37980b-997f-4205-a4bc-f146cdba0b51)
+<em style = " color: #4F4F4F; "> Click on “uploading an existing file” to begin adding your website files. </em>
+
+3. **Drag and drop** or **Upload** your `index.html` file (and any other files like CSS, JavaScript, or images) into the upload area.
+
+![Github screenshot16](https://github.com/user-attachments/assets/e49d3306-8990-4bea-9476-3c55a1975ceb)
+<em style = " color: #4F4F4F; "> Drag and drop your index.html and other files into the box to upload them. </em>
+
+4. Scroll down to the **“Commit changes”** section.  
+   You can leave the default commit message or write your own.
+
+![Github screenshot18](https://github.com/user-attachments/assets/89888c2c-faef-4412-b0f1-372e65293fc5)
+<em style = " color: #4F4F4F; "> Scroll down to see the commit message box. You can write a custom message if you want. </em>
+5. Click **“Commit changes”** to upload the files.
+
+
+![Github screenshot17](https://github.com/user-attachments/assets/b9e202d0-e4da-4114-b1fe-9ea4c8fd50cf)
+<em style = " color: #4F4F4F; "> Click the green “Commit changes” button to finish uploading your website files. </em>
+
+
+Once you’ve done this, your files are now live in the repository!  
+You're just **one step away** from making your site public.
+
+
+

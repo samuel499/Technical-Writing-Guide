@@ -190,3 +190,52 @@ If you want to include any images on your website, simply add the image files (l
 
 Now you have all the files you need to set up your site! Once you've created these files, we can move on to creating your GitHub repository and uploading them.
 
+
+### Creating Your GitHub Repository
+
+To build your website with GitHub Pages, the first step is creating a new repository. This is where your website files will live.
+
+Here’s how to do it:
+
+1. **Log in** to your GitHub account.
+
+![Screenshot 2025-04-17 012233](https://github.com/user-attachments/assets/45205a95-397e-4dd0-8035-04b860729fb3)
+<em style = " color: #4F4F4F; "> Logging into your GitHub account from the homepage </em>
+
+2. On the top right corner, click the **➕ (plus) icon**, then choose **"New repository."**
+
+![Github screenshot08](https://github.com/user-attachments/assets/3ef66daa-6499-47cd-960b-6a73ad1c4f26)
+<em style = " color: #4F4F4F; "> Accessing the “New repository” option from the GitHub menu </em>
+
+3. **Give your repository a name.**  
+   You can name it anything you want, like `my-website`.
+
+![Github screenshot09](https://github.com/user-attachments/assets/79685726-58ca-4601-b904-6247d34bb671)
+<em style = " color: #4F4F4F; "> Entering a name for your new repository </em>
+
+   >  **Tip:** If you want the website to show up at `yourusername.github.io`, name the repo **exactly** like that: `yourusername.github.io`.
+
+4. **Add a description** if you like (this part is optional).
+
+![Github screenshot10](https://github.com/user-attachments/assets/df809c93-2391-4e68-8062-46d127cf882c)
+<em style = " color: #4F4F4F; "> Optionally adding a short description for your project </em>
+
+5. **Leave it set to Public.**  
+   GitHub Pages only works with public repositories on free accounts.
+
+![Github screenshot11](https://github.com/user-attachments/assets/a4c9de17-2bb2-487d-bfeb-eea199a4c619)
+<em style = " color: #4F4F4F; "> Choosing the “Public” visibility option </em>
+
+6. **Do not check** the box that says _“Initialize this repository with a README.”_  
+   We’ll add files ourselves later.
+
+![Github screenshot12](https://github.com/user-attachments/assets/8d90c2fc-7c22-4745-a4a9-33977695050e)
+<em style = " color: #4F4F4F; "> Make sure the README box is not selected </em>
+
+7. Click **Create repository** at the bottom.
+
+![Github screenshot13](https://github.com/user-attachments/assets/6613cb73-32e7-44e9-a051-3fbc9587a329)
+<em style = " color: #4F4F4F; "> Final step: Click “Create repository” to finish </em>
+
+That’s it! You’ve just created the space where your website will live.
+

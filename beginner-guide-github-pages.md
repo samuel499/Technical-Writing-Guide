@@ -279,4 +279,35 @@ Once you’ve done this, your files are now live in the repository!
 You're just **one step away** from making your site public.
 
 
+### Enable GitHub Pages
+
+Now that your files are uploaded, it’s time to make your website go live.
+
+Here’s how to turn on GitHub Pages (based on GitHub’s updated interface):
+
+1. In your repository, click on the **Settings** tab at the top of the page.
+
+
+![Github screenshot19](https://github.com/user-attachments/assets/1610a37d-718d-4ace-9875-66e03882ca79)
+<em style = " color: #4F4F4F; "> Click the green “Commit changes” button to finish uploading your website files. </em>
+2. On the **left sidebar**, scroll to the **Code and automation** section and click on **Pages**.
+
+
+![Github screenshot20](https://github.com/user-attachments/assets/9f28c0fc-b64b-49c4-976f-7f5aaf60706f)
+<em style = " color: #4F4F4F; "> Click the green “Commit changes” button to finish uploading your website files. </em>
+
+3. Under **Build and deployment**, find the **Source** section.
+
+![Github screenshot22](https://github.com/user-attachments/assets/7ef8ec46-360a-4b66-8887-2dd13081fc7c)
+<em style = " color: #4F4F4F; "> Click the green “Commit changes” button to finish uploading your website files. </em>
+
+4. In the dropdown, select **Deploy from a branch**.
+
+5. Two more dropdowns will appear—select the branch you want to use (usually `main`) and the folder (usually `/root`), then click **Save**.
+
+6. GitHub will generate a green success box with a public link to your website. It will look something like:  
+   `https://yourusername.github.io/your-repository-name`
+
+> **Heads up:** It might take a minute or two for your site to show up. That’s totally normal!
+
 

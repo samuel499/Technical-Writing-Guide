@@ -289,24 +289,34 @@ Here’s how to turn on GitHub Pages (based on GitHub’s updated interface):
 
 
 ![Github screenshot19](https://github.com/user-attachments/assets/1610a37d-718d-4ace-9875-66e03882ca79)
-<em style = " color: #4F4F4F; "> Click the green “Commit changes” button to finish uploading your website files. </em>
+<em style = " color: #4F4F4F; "> This is where you’ll find repository-specific configurations like Pages, branches, and webhooks. </em>
 2. On the **left sidebar**, scroll to the **Code and automation** section and click on **Pages**.
 
 
 ![Github screenshot20](https://github.com/user-attachments/assets/9f28c0fc-b64b-49c4-976f-7f5aaf60706f)
-<em style = " color: #4F4F4F; "> Click the green “Commit changes” button to finish uploading your website files. </em>
+<em style = " color: #4F4F4F; "> This section lets you manage GitHub Pages settings for your repository. </em>
 
 3. Under **Build and deployment**, find the **Source** section.
 
 ![Github screenshot22](https://github.com/user-attachments/assets/7ef8ec46-360a-4b66-8887-2dd13081fc7c)
-<em style = " color: #4F4F4F; "> Click the green “Commit changes” button to finish uploading your website files. </em>
+<em style = " color: #4F4F4F; "> This is where you’ll choose the branch and folder to deploy your site from. </em>
 
 4. In the dropdown, select **Deploy from a branch**.
 
+![Github screenshot21](https://github.com/user-attachments/assets/3e4594bc-5e87-45cd-b936-b16e839d1ca0)
+<em style = " color: #4F4F4F; "> This tells GitHub which branch contains your site files. </em>
+
 5. Two more dropdowns will appear—select the branch you want to use (usually `main`) and the folder (usually `/root`), then click **Save**.
+![image](https://github.com/user-attachments/assets/fb8386e8-f076-4f4f-b63a-75df73d2a257)
+<em style = " color: #4F4F4F; "> Once saved, GitHub will start deploying your site from the selected branch and folder. </em>
 
 6. GitHub will generate a green success box with a public link to your website. It will look something like:  
    `https://yourusername.github.io/your-repository-name`
+
+
+![Github screenshot23](https://github.com/user-attachments/assets/c4cf4b4c-9532-4982-b5f0-a1b0b414a2cf)
+<em style = " color: #4F4F4F; "> Click the link to view your live website—it’s now on the internet! </em>
+
 
 > **Heads up:** It might take a minute or two for your site to show up. That’s totally normal!
 

@@ -13,8 +13,7 @@
     - [4.2 Create Your Basic HTML Files](#42-create-your-basic-html-files)
     - [4.3 Create a New Repository](#43-create-a-new-repository)  
     - [4.4 Add Your Website Files](#44-add-your-website-files)  
-    - [4.5 Enable GitHub Pages](#45-enable-github-pages)  
-    - [4.6 View Your Live Website](#46-view-your-live-website)  
+    - [4.5 Enable GitHub Pages & View Your Live Website](#45-enable-github-pages-&-view-your-live-website)  
 5. [Customizing Your Website](#customizing-your-website)  
 6. [Troubleshooting & FAQ](#troubleshooting--faq)  
 7. [Conclusion](#conclusion)
@@ -321,3 +320,116 @@ Here’s how to turn on GitHub Pages (based on GitHub’s updated interface):
 > **Heads up:** It might take a minute or two for your site to show up. That’s totally normal!
 
 
+## Customizing Your Website
+
+Now that your website is live, you can start making it your own. Customizing your site is as simple as editing your files and uploading the new versions to GitHub. Let’s walk through some ways to make your site look and feel more personal.
+
+
+
+### Editing Your `index.html`
+
+The `index.html` file is the heart of your website. It’s the first thing people see when they visit your page.
+
+If you want to change the text, add images, or insert links, just open the file in a text editor (like **Notepad**, **VS Code**, or **Sublime Text**), make your changes, and save the file.
+
+Here’s a simple example:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to My Site</title>
+  </head>
+  <body>
+    <h1>Hello, I’m Sammy!</h1>
+    <p>This is my first website using GitHub Pages. Thanks for visiting!</p>
+  </body>
+</html>
+```
+> **Tip:** Always make sure your file is saved with the .html extension and not as a text file (.txt).
+Once you've edited your file, go back to your GitHub repository, click “Add file” > “Upload files”, and upload the new version of index.html. GitHub will replace the old one.
+
+![image](https://github.com/user-attachments/assets/58a83ac9-86f7-430f-a1ab-055e098204b7)
+<em style = " color: #4F4F4F; "> A screenshot of the updated website </em>
+
+### Adding Some Style with CSS
+If you want your site to look a bit nicer, you can add a CSS file. CSS (Cascading Style Sheets) controls the look of your site—things like fonts, colors, and layout.
+
+Here’s how to do it:
+
+1. In your text editor, create a new file called style.css.
+
+Add something simple like this:
+
+```css
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+```
+2. Save the file, and upload it to your GitHub repository like you did before.
+
+3. Now, go back to your index.html file and add this line in the <head> section to link the CSS:
+
+```html
+<link rel="stylesheet" href="style.css">
+```
+That’s it! Your site will now use your custom styles.
+
+### Updating Your Site
+
+Every time you want to update your website—whether it's text, images, or styles—just follow the same upload process:
+
+1.Edit your files on your computer
+
+2. Save the updated version
+
+3. Upload it to GitHub (replace the old version)
+
+GitHub will automatically refresh the live site within a few seconds.
+
+## Conclusion
+
+Your website is now live. You’ve set up a GitHub account, added your files, and published a site without needing to code. From here, you can keep it simple or build on it as you learn more. Either way, you’ve made a great start.
+
+
+## Troubleshooting & FAQ
+
+Running into issues? Don’t worry—it happens. This section covers some of the most common problems beginners face and how to solve them.
+
+### Why isn’t my website showing up?
+
+There are a few possible reasons:
+
+- You don’t have an `index.html` file.
+- You picked the wrong branch or folder.
+- GitHub is still processing.
+
+### I made changes, but the live site didn’t update. What now?
+
+- Make sure you uploaded the updated version of your file to the same repository.
+- Refresh the live page and try clearing your browser cache (Ctrl + Shift + R or Command + Shift + R).
+- Confirm that your file names haven’t changed (e.g., it should still be `index.html`, not `index(1).html`).
+
+### Can I use folders for my files?
+
+Yes! You can organize your files in folders. Just make sure you update the file paths in your HTML.
+
+```html
+<img src="images/photo.jpg" alt="My photo">
+<link rel="stylesheet" href="css/style.css">
+```
+
+### How do I remove or delete files from my site?
+
+1. Go to your repository on GitHub.
+2. Click the file you want to remove.
+3. Click the trash icon in the top-right corner.
+4. Scroll down and click **Commit changes** to confirm.
+
+The file will be deleted from your site once the changes are saved.
+
+### Can other people find my site on Google?
+
+Not immediately. GitHub Pages sites don’t get indexed super fast, but over time, search engines may find them. If you want to share your site faster, copy the link and share it directly.

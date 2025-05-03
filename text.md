@@ -1,5 +1,3 @@
-![WhatsApp Image 2025-03-26 at 12 54 29 AM](https://github.com/user-attachments/assets/34c75c74-4b74-47ec-8a83-484f67bcaa83)
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* Custom CSS */
-
         * {
           box-sizing: border-box
         }
@@ -31,8 +28,15 @@
             width: 100%;
         }
 
+        .project-card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
         .project-card img {
-            object-fit: cover;
+            object-fit: contain;
+            width: 100%;
+            height: 200px;
         }
 
         .project-card:hover {
@@ -52,6 +56,18 @@
         }
         #mobile-menu.open {
             max-height: 500px;
+        }
+        
+        /* Fixed project card content spacing */
+        .project-content {
+            padding: 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .project-content p {
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
         }
     </style>
 </head>
@@ -122,17 +138,15 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Project 1 -->
                 <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
-                    <div class="h-48 bg-gray-200 flex items-center justify-center">
-                      <img src="https://private-user-images.githubusercontent.com/83983318/440145156-876dd677-8820-4d4c-ad52-710b50a3b47c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDYzMDUyMjYsIm5iZiI6MTc0NjMwNDkyNiwicGF0aCI6Ii84Mzk4MzMxOC80NDAxNDUxNTYtODc2ZGQ2NzctODgyMC00ZDRjLWFkNTItNzEwYjUwYTNiNDdjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTAzVDIwNDIwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFjZjVlZGQ4NGY3MDFiN2RkMDA0YTcyZmU2MjA0OWNkMDNkNTg2Y2E1Y2FhMGFlMGI5NTg0NmE2YWQzYWExOTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xjJ1HGseHw0mJosmi6cwzcncc2a6rJdv9119PFa1c4I"/>
-                        <!-- <i class="fas fa-laptop-code text-5xl text-blue-500"></i> -->
+                    <div class="h-48 bg-gray-200 flex items-center justify-center overflow-hidden">
+                      <img src="https://private-user-images.githubusercontent.com/83983318/440145156-876dd677-8820-4d4c-ad52-710b50a3b47c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDYzMDUyMjYsIm5iZiI6MTc0NjMwNDkyNiwicGF0aCI6Ii84Mzk4MzMxOC80NDAxNDUxNTYtODc2ZGQ2NzctODgyMC00ZDRjLWFkNTItNzEwYjUwYTNiNDdjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTAzVDIwNDIwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFjZjVlZGQ4NGY3MDFiN2RkMDA0YTcyZmU2MjA0OWNkMDNkNTg2Y2E1Y2FhMGFlMGI5NTg0NmE2YWQzYWExOTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xjJ1HGseHw0mJosmi6cwzcncc2a6rJdv9119PFa1c4I" alt="Business Website for Branding Coach"/>
                     </div>
-                    <div class="px-8 my-8 md:mt-2">
+                    <div class="project-content">
                         <h3 class="text-xl font-semibold mb-2">Business Website for Branding Coach</h3>
-                        <p class="text-gray-600 mb-4">A clean, responsive website for a personal branding coach, featuring service descriptions, booking integration, and a blog section to share insights and updates.</p>
+                        <p class="text-gray-600">A clean, responsive website for a personal branding coach, featuring service descriptions, booking integration, and a blog section to share insights and updates.</p>
                         <div class="flex flex-wrap gap-2">
                             <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm">WordPress</span>
                             <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">Elementor</span>
-                    
                         </div>
                         <a href="#" class="mt-4 inline-block text-blue-500 hover:text-blue-600 font-medium">View Project →</a>
                     </div>
@@ -140,17 +154,15 @@
                 
                 <!-- Project 2 -->
                 <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
-                    <div class="h-48 bg-gray-200 flex items-center justify-center">
-                      <img src="https://private-user-images.githubusercontent.com/83983318/440145697-e84ce6c5-199f-4cf9-b83a-ef900e1453b1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDYzMDY0NDMsIm5iZiI6MTc0NjMwNjE0MywicGF0aCI6Ii84Mzk4MzMxOC80NDAxNDU2OTctZTg0Y2U2YzUtMTk5Zi00Y2Y5LWI4M2EtZWY5MDBlMTQ1M2IxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTAzVDIxMDIyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ0N2QwNWE0YjNjMzgzMjI0ODFiMTgzZTBkNzE4OTgyNWM0NWU2YmU4MmNjODRkNWEyMGYyNGQ4NzE0YzRmOWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qL5nXgN5x_yABY1zqfoA1UYukivswyEkibdTQoEG_a8"/>
-                        <!-- <i class="fas fa-store text-5xl text-blue-500"></i> -->
+                    <div class="h-48 bg-gray-200 flex items-center justify-center overflow-hidden">
+                      <img src="https://private-user-images.githubusercontent.com/83983318/440145697-e84ce6c5-199f-4cf9-b83a-ef900e1453b1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDYzMDY0NDMsIm5iZiI6MTc0NjMwNjE0MywicGF0aCI6Ii84Mzk4MzMxOC80NDAxNDU2OTctZTg0Y2U2YzUtMTk5Zi00Y2Y5LWI4M2EtZWY5MDBlMTQ1M2IxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTAzVDIxMDIyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ0N2QwNWE0YjNjMzgzMjI0ODFiMTgzZTBkNzE4OTgyNWM0NWU2YmU4MmNjODRkNWEyMGYyNGQ4NzE0YzRmOWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qL5nXgN5x_yABY1zqfoA1UYukivswyEkibdTQoEG_a8" alt="Digital Media Agency Website"/>
                     </div>
-                    <div class="px-6 my-8 md:mt-2">
+                    <div class="project-content">
                         <h3 class="text-xl font-semibold mb-2">Digital Media Agency Website</h3>
-                        <p class="text-gray-600 mb-4">Developed a sleek, conversion-focused site for a digital agency, showcasing services, past work, and lead generation forms — all built with Elementor for easy updates.</p>
+                        <p class="text-gray-600">Developed a sleek, conversion-focused site for a digital agency, showcasing services, past work, and lead generation forms — all built with Elementor for easy updates.</p>
                         <div class="flex flex-wrap gap-2">
                             <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm">WordPress</span>
                             <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">Elementor</span>
-                            <!-- <span class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm">WooCommerce</span> -->
                         </div>
                         <a href="#" class="mt-4 inline-block text-blue-500 hover:text-blue-600 font-medium">View Project →</a>
                     </div>
@@ -158,13 +170,12 @@
                 
                 <!-- Project 3 -->
                 <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
-                    <div class="h-48 bg-gray-200 flex items-center justify-center">
-                      <img src="https://private-user-images.githubusercontent.com/83983318/440146511-80f564c4-0409-4daf-896b-d01a4d1f859a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDYzMDcyODEsIm5iZiI6MTc0NjMwNjk4MSwicGF0aCI6Ii84Mzk4MzMxOC80NDAxNDY1MTEtODBmNTY0YzQtMDQwOS00ZGFmLTg5NmItZDAxYTRkMWY4NTlhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTAzVDIxMTYyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU5Zjk5YTI1NGJkMGQ2MzBiNWIxNmE3OTE0NzhkYmU3NDM5YjY5NmIxZDY5OGY3MjI4ZWZmMDk4MDViMzkwM2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.6NBqMdazCEgYhJK8mTNVBZEd0w0Mru7s84NQITynlwk"/>
-                        <!-- <i class="fas fa-briefcase text-5xl text-blue-500"></i> -->
+                    <div class="h-48 bg-gray-200 flex items-center justify-center overflow-hidden">
+                      <img src="https://private-user-images.githubusercontent.com/83983318/440146511-80f564c4-0409-4daf-896b-d01a4d1f859a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDYzMDcyODEsIm5iZiI6MTc0NjMwNjk4MSwicGF0aCI6Ii84Mzk4MzMxOC80NDAxNDY1MTEtODBmNTY0YzQtMDQwOS00ZGFmLTg5NmItZDAxYTRkMWY4NTlhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTAzVDIxMTYyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU5Zjk5YTI1NGJkMGQ2MzBiNWIxNmE3OTE0NzhkYmU3NDM5YjY5NmIxZDY5OGY3MjI4ZWZmMDk4MDViMzkwM2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.6NBqMdazCEgYhJK8mTNVBZEd0w0Mru7s84NQITynlwk" alt="AI Product Landing Page"/>
                     </div>
-                    <div class="px-6 my-8  md:mt-2">
+                    <div class="project-content">
                         <h3 class="text-xl font-semibold mb-2">AI Product Landing Page</h3>
-                        <p class="text-gray-600 mb-4">I created a modern, scroll-driven landing page for an AI-powered brand audit tool. The site highlights core features, demo call-to-actions, and a minimal user journey optimized for engagement.</p>
+                        <p class="text-gray-600">I created a modern, scroll-driven landing page for an AI-powered brand audit tool. The site highlights core features, demo call-to-actions, and a minimal user journey optimized for engagement.</p>
                         <div class="flex flex-wrap gap-2">
                             <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm">WordPress</span>
                             <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">Elementor</span>
@@ -351,7 +362,6 @@
                             <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">Elementor</span>
                             <span class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm">WooCommerce</span>
                         </div>
-$0
                         <a href="#" class="inline-block text-blue-500 hover:text-blue-600 font-medium">View Details →</a>
                     </div>
                 </div>
@@ -418,7 +428,7 @@ $0
                         <div class="flex flex-wrap gap-2 mb-4">
                             <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm">WordPress</span>
                             <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">Elementor</span>
-                            <span class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm">Patient Portal</span>
+                            <span class="bg-pink-100 text pink-600 px-3 py-1 rounded-full text-sm">Patient Portal</span>
                         </div>
                         <a href="#" class="inline-block text-blue-500 hover:text-blue-600 font-medium">View Details →</a>
                     </div>
@@ -581,187 +591,5 @@ $0
                             <form id="contact-form" class="space-y-6">
                                 <div>
                                     <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
-                                    <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required>
-                                </div>
-                                <div>
-                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                                    <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required>
-                                </div>
-                                <div>
-                                    <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
-                                    <input type="text" id="subject" name="subject" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required>
-                                </div>
-                                <div>
-                                    <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                                    <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required></textarea>
-                                </div>
-                                <div>
-                                    <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium transition duration-300">Send Message</button>
-                                </div>
-                            </form>
-                            
-                            <div id="form-success" class="hidden mt-4 p-4 bg-green-100 text-green-700 rounded-md">
-                                <i class="fas fa-check-circle mr-2"></i> Your message has been sent successfully!
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-12">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Alex Carter</h3>
-                    <p class="text-gray-400">Freelance WordPress developer specializing in Elementor and custom theme development for small businesses.</p>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#home" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
-                        <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">About</a></li>
-                        <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">Services</a></li>
-                        <li><a href="#portfolio" class="text-gray-400 hover:text-white transition duration-300">Portfolio</a></li>
-                        <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Services</h4>
-                    <ul class="space-y-2">
-                        <li class="text-gray-400">Elementor Websites</li>
-                        <li class="text-gray-400">Custom Themes</li>
-                        <li class="text-gray-400">E-commerce</li>
-                        <li class="text-gray-400">Website Maintenance</li>
-                        <li class="text-gray-400">SEO Optimization</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Connect</h4>
-                    <div class="flex space-x-4">
-                        <a href="#" class="w-10 h-10 rounded-full bg-gray-700 hover:bg-blue-500 flex items-center justify-center transition duration-300">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-gray-700 hover:bg-blue-500 flex items-center justify-center transition duration-300">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-gray-700 hover:bg-blue-500 flex items-center justify-center transition duration-300">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-gray-700 hover:bg-blue-500 flex items-center justify-center transition duration-300">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                    <div class="mt-6">
-                        <a href="#contact" class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md font-medium transition duration-300">Hire Me</a>
-                    </div>
-                </div>
-            </div>
-            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2023 Alex Carter. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to Top Button -->
-    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-blue-500 text-white rounded-full shadow-lg flex items-center justify-center transition duration-300 opacity-0 invisible">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-
-    <script>
-        // Mobile menu toggle
-        const menuToggle = document.getElementById('menu-toggle');
-        const mobileMenu = document.getElementById('mobile-menu');
-        
-        menuToggle.addEventListener('click', () => {
-            mobileMenu.classList.toggle('open');
-        });
-        
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                    
-                    // Close mobile menu if open
-                    if (mobileMenu.classList.contains('open')) {
-                        mobileMenu.classList.remove('open');
-                    }
-                }
-            });
-        });
-        
-        // Portfolio filtering
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        const portfolioItems = document.querySelectorAll('.portfolio-item');
-        
-        filterButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                // Update active button
-                filterButtons.forEach(btn => btn.classList.remove('active', 'bg-blue-500', 'text-white'));
-                button.classList.add('active', 'bg-blue-500', 'text-white');
-                
-                const filterValue = button.getAttribute('data-filter');
-                
-                // Filter items
-                portfolioItems.forEach(item => {
-                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
-                        item.style.display = 'block';
-                    } else {
-                        item.style.display = 'none';
-                    }
-                });
-            });
-        });
-        
-        // Back to top button
-        const backToTopButton = document.getElementById('back-to-top');
-        
-        window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 300) {
-                backToTopButton.classList.remove('opacity-0', 'invisible');
-                backToTopButton.classList.add('opacity-100', 'visible');
-            } else {
-                backToTopButton.classList.remove('opacity-100', 'visible');
-                backToTopButton.classList.add('opacity-0', 'invisible');
-            }
-        });
-        
-        backToTopButton.addEventListener('click', () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-        
-        // Contact form submission
-        const contactForm = document.getElementById('contact-form');
-        const formSuccess = document.getElementById('form-success');
-        
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            
-            // Simulate form submission
-            setTimeout(() => {
-                contactForm.reset();
-                formSuccess.classList.remove('hidden');
-                
-                // Hide success message after 5 seconds
-                setTimeout(() => {
-                    formSuccess.classList.add('hidden');
-                }, 5000);
-            }, 1000);
-        });
-    </script>
-</body>
+                                    <input type="text
 </html>
